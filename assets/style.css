@@ -28,7 +28,7 @@ Colours from: https://visme.co/blog/website-color-schemes/
 
 /*----------------------------------------------------------------Nav*/
 
-/*Nav Elements inspired by Dev Ed: 
+/*Nav Elements: Dev Ed: 
 
 https://www.youtube.com/watch?v=gXkqy0b4M5g
 
@@ -102,11 +102,11 @@ nav {
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background: linear-gradient(180deg, #31708E 0%, #8FC1E3 100%);
+        background: linear-gradient(270deg, #31708E 0%, #8FC1E3 100%);
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 75%;
+        width: 70%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
     }
@@ -164,6 +164,29 @@ nav {
 }
 
 /*----------------------------------------------------------------Home*/
+/*----------------------------------------------------------------Services*/
+.about{
+    display:flex;
+    flex-flow:column wrap;
+    align-items:center;
+    color:#687864;
+}
+
+.about h1{
+    margin:20px;
+}
+
+.about p{
+    margin:20px 30px 0px 30px;
+}
+
+.services{
+    display:flex;
+    flex-flow:column wrap;
+    align-items:center;
+    color:#687864;
+}
+/*----------------------------------------------------------------Services*/
 
 /*----------------------------------------------------------------Footer*/
 
