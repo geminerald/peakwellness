@@ -156,7 +156,7 @@ nav {
     background-size:cover;
     margin:auto;
     height:90vh;
-    width:90%;
+    width:100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -173,6 +173,26 @@ footer {
     position: absolute;
     bottom: 0;
     background: linear-gradient(180deg, #5085A5 0%, #8FC1E3 100%);
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+
+.f-item{
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    flex-direction:row;
+}
+
+.social-links{
+    display:flex;
+    justify-content:space-between;
+    list-style:none;
+}
+
+.social-links li{
+    margin:7px;
 }
 
 /*----------------------------------------------------------------Footer*/
