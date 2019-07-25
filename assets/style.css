@@ -150,21 +150,23 @@ nav {
 /*----------------------------------------------------------------Home*/
 
 .home-container {
-    height:500px;
-    width:500px;
-    background-image: url("images/home-bg.jpg");
-    border: 1px solid black;
+    background-image: url("../images/home-bg.jpg");
+    height:90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow:column;
 }
 
 /*----------------------------------------------------------------Home*/
 
 /*----------------------------------------------------------------Footer*/
 
-footer{
-    height:8vh;
-    width:100%;
-    position:absolute;
-    bottom:0;
+footer {
+    height: 8vh;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
     background: linear-gradient(180deg, #5085A5 0%, #8FC1E3 100%);
 }
 
