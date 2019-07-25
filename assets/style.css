@@ -151,16 +151,16 @@ nav {
 
 .home-container {
     background-image: url("../images/home-bg.jpg");
-    background-repeat:no-repeat;
-    background-position:center;
-    background-size:cover;
-    margin:auto;
-    height:90vh;
-    width:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    height: 90vh;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-flow:column;
+    flex-flow: column;
 }
 
 /*----------------------------------------------------------------Home*/
@@ -173,26 +173,47 @@ footer {
     position: absolute;
     bottom: 0;
     background: linear-gradient(180deg, #5085A5 0%, #8FC1E3 100%);
-    display:flex;
-    flex-direction:row;
-    justify-content:space-evenly;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-.f-item{
-    display:flex;
-    align-items:center;
-    justify-content:space-evenly;
-    flex-direction:row;
+.f-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 33%;
 }
 
-.social-links{
-    display:flex;
-    justify-content:space-between;
-    list-style:none;
+.social-links {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 100%;
 }
 
-.social-links li{
-    margin:7px;
+.social-links li a i,
+.f-item a i {
+    font-size: 3vh;
+}
+
+
+.hidden-mobile {
+    display: block;
+}
+
+.show-mobile {
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .hidden-mobile {
+        display: none;
+    }
+    .show-mobile {
+        display: block;
+    }
 }
 
 /*----------------------------------------------------------------Footer*/
