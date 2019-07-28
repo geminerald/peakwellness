@@ -228,6 +228,7 @@ nav {
 .service p {
     max-width: 350px;
     text-align:center;
+    margin-top:10px;
 }
 
 .image-cropper {
