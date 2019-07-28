@@ -285,6 +285,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     color: #5085a5;
+    background-color:#f7f9fb;
 
 }
 
@@ -304,10 +305,32 @@ h5{
 
 .contact{
     margin-top:5vh;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
 }
 
 .contact i{
     font-size:5vh;
+}
+.contact a{
+    color:#5085a5;
+}
+
+form{
+    margin:auto;
+    margin-top:30px;
+    margin-bottom:30px;
+    display:flex;
+    flex-flow:column wrap;
+    width:80%;
+    justify-content:space-evenly;
+}
+
+input,textarea{
+    border-radius:5px;
+    border:3px solid #8fc1e3;
+    margin:5px;
 }
 
 /*----------------------------------------------------------------Contact*/
