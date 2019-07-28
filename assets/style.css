@@ -219,7 +219,6 @@ nav {
     align-items: center;
     justify-content: center;
     flex-flow: column wrap;
-    border: 2px solid red;
     margin:0px 15px 20px 15px;
     min-height:450px;
     min-width:350px;
@@ -265,6 +264,7 @@ button {
     transition: 0.3s ease-in;
     font-size: 3vh;
     cursor: pointer;
+    padding:10px;
 }
 
 button:hover {
