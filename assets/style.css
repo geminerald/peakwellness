@@ -1,4 +1,5 @@
-* {
+
+/*----------------------------------------------------------------Universals*/* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,7 +13,18 @@ body {
 a {
     text-decoration: none;
     color: #f7f9fb;
+    cursor:pointer;
 }
+
+
+h1 {
+    margin: 20px;
+    font-size: 5vh;
+    width: 100%;
+    text-align: center;
+}
+
+/*----------------------------------------------------------------Universals*/
 
 /*----------------------------------------------------------------Colours
 
@@ -188,13 +200,6 @@ nav {
     margin: 10px 0px 30px 0px;
 }
 
-.about h1,
-.services h1 {
-    margin: 20px;
-    font-size: 5vh;
-    width: 100%;
-    text-align: center;
-}
 
 .about p {
     margin: 20px 30px 0px 30px;
@@ -207,7 +212,7 @@ nav {
     align-items: center;
     color: #31708e;
     background-color: #f7f9fb;
-    justify-content:center;
+    justify-content: center;
 }
 
 .service-container {
@@ -219,16 +224,16 @@ nav {
     align-items: center;
     justify-content: center;
     flex-flow: column wrap;
-    margin:0px 15px 20px 15px;
-    min-height:450px;
-    min-width:350px;
+    margin: 0px 15px 20px 15px;
+    min-height: 450px;
+    min-width: 350px;
 
 }
 
 .service p {
     max-width: 350px;
-    text-align:center;
-    margin-top:10px;
+    text-align: center;
+    margin-top: 10px;
 }
 
 .image-cropper {
@@ -265,7 +270,7 @@ button {
     transition: 0.3s ease-in;
     font-size: 3vh;
     cursor: pointer;
-    padding:10px;
+    padding: 10px;
 }
 
 button:hover {
@@ -273,6 +278,21 @@ button:hover {
 }
 
 /*----------------------------------------------------------------Services*/
+
+/*----------------------------------------------------------------Contact*/
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    color: #5085a5;
+
+}
+
+.contact i{
+    
+}
+
+/*----------------------------------------------------------------Contact*/
 
 /*----------------------------------------------------------------Footer*/
 
