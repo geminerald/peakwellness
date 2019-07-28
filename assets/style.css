@@ -288,8 +288,26 @@ button:hover {
 
 }
 
+h5{
+    text-align:center;
+    width:100%;
+    letter-spacing:1px;
+    font-size:2.5vh;
+}
+
+.contacts{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-evenly;
+    margin:5vh 0vh 5vh 0vh;
+}
+
+.contact{
+    margin-top:5vh;
+}
+
 .contact i{
-    
+    font-size:5vh;
 }
 
 /*----------------------------------------------------------------Contact*/
