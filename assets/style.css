@@ -38,6 +38,53 @@ Colours from: https://visme.co/blog/website-color-schemes/
 
 */
 
+
+
+.price-container{
+    color:#f7f9fb;
+    background-image: url("../images/price-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 5;
+    
+}
+
+.price-container h1{
+    margin:0;
+}
+
+.price-option{
+    display:flex;
+    flex-flow:column;
+    justify-content:space-around;
+    align-items:center;
+    width:80%;
+    margin:auto;
+}
+.price-option h3{
+    margin-top:35px;
+}
+.price-option p{
+    margin:15px;
+}
+
+table{
+    width:80%;
+    margin:auto;
+}
+
+th{
+   
+}
+tr{
+   
+}
+td{
+    
+    text-align:center;
+}
+
 /*----------------------------------------------------------------Nav*/
 
 /*Nav Elements: Dev Ed: 
@@ -279,6 +326,10 @@ button:hover {
 
 /*----------------------------------------------------------------Services*/
 
+/*----------------------------------------------------------------Prices*/
+
+/*----------------------------------------------------------------Prices*/
+
 /*----------------------------------------------------------------Contact*/
 
 .contact-container {
@@ -399,3 +450,7 @@ footer {
 }
 
 /*----------------------------------------------------------------KeyFrames*/
+.overlay{
+    background-color: rgba((0,0,0,0.5);
+    
+}
