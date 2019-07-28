@@ -185,11 +185,13 @@ nav {
     flex-flow: column wrap;
     align-items: center;
     color: #31708e;
+    margin:10px 0px 30px 0px;
 }
 
 .about h1,
 .services h1 {
     margin: 20px;
+    font-size:5vh;
 }
 
 .about p {
@@ -215,16 +217,20 @@ nav {
     flex-flow:column wrap;
 }
 
-figure{
-    text-align: center;
-}
-
 .image-cropper {
+    border:5px solid #8fc1e3;
     width: 250px;
     height: 250px;
     position: relative;
     overflow: hidden;
     border-radius: 50%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease-in;
+
+}
+
+.image-cropper:hover{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
 
 .image-cropper img {
@@ -232,6 +238,22 @@ figure{
     margin: 0 auto;
     height: 100%;
     width: auto;
+}
+
+button{
+    color:#f7f9fb;
+    background-color:#5085a5;
+    margin:10px 0px 10px 0px;
+    min-height:50px;
+    min-width:200px;
+    border-radius:5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    transition: 0.3s ease-in;
+    font-size:3vh;
+}
+
+button:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
 }
 
 /*----------------------------------------------------------------Services*/
