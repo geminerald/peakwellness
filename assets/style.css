@@ -109,7 +109,7 @@ nav {
         width: 70%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
-        z-index:1;
+        z-index: 1;
     }
     .nav-links li {
         opacity: 0;
@@ -155,7 +155,7 @@ nav {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    z-index:0;
+    z-index: 0;
     margin: auto;
     height: 90vh;
     width: 100%;
@@ -185,13 +185,15 @@ nav {
     flex-flow: column wrap;
     align-items: center;
     color: #31708e;
-    margin:10px 0px 30px 0px;
+    margin: 10px 0px 30px 0px;
 }
 
 .about h1,
 .services h1 {
     margin: 20px;
-    font-size:5vh;
+    font-size: 5vh;
+    width: 100%;
+    text-align: center;
 }
 
 .about p {
@@ -201,24 +203,36 @@ nav {
 
 .services {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     align-items: center;
     color: #31708e;
-    background-color:#f7f9fb;
-}
-.service-container{
-    margin-bottom:15px;
+    background-color: #f7f9fb;
+    justify-content:center;
 }
 
-.service{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    flex-flow:column wrap;
+.service-container {
+    margin-bottom: 15px;
+}
+
+.service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    border: 2px solid red;
+    margin:0px 15px 20px 15px;
+    min-height:450px;
+    min-width:350px;
+
+}
+
+.service p {
+    max-width: 350px;
+    text-align:center;
 }
 
 .image-cropper {
-    border:5px solid #8fc1e3;
+    border: 5px solid #8fc1e3;
     width: 250px;
     height: 250px;
     position: relative;
@@ -229,8 +243,8 @@ nav {
 
 }
 
-.image-cropper:hover{
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+.image-cropper:hover {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.4);
 }
 
 .image-cropper img {
@@ -240,20 +254,21 @@ nav {
     width: auto;
 }
 
-button{
-    color:#f7f9fb;
-    background-color:#5085a5;
-    margin:10px 0px 10px 0px;
-    min-height:50px;
-    min-width:200px;
-    border-radius:5px;
+button {
+    color: #f7f9fb;
+    background-color: #5085a5;
+    margin: 10px 0px 10px 0px;
+    min-height: 50px;
+    min-width: 200px;
+    border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
     transition: 0.3s ease-in;
-    font-size:3vh;
+    font-size: 3vh;
+    cursor: pointer;
 }
 
-button:hover{
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
+button:hover {
+    box-shadow: 0 6px 14px 0 rgba(0, 0, 0, 0.6);
 }
 
 /*----------------------------------------------------------------Services*/
