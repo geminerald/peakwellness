@@ -41,7 +41,6 @@ Colours from: https://visme.co/blog/website-color-schemes/
 
 .price-container {
     color: #31708e;
-
     display: flex;
     flex-flow: row wrap;
 
@@ -62,19 +61,21 @@ Colours from: https://visme.co/blog/website-color-schemes/
 
 .price-option h3 {
     margin-top: 35px;
-    border-bottom: 5px solid #31708e;
-    border-radius: 5px;
+    font-size:25px;
+    color:#8fc1e3;
 }
 
 .price-option p {
     margin: 15px;
+    border-top:5px solid #8fc1e3;
+    border-radius:5px;
+    padding-top:7px;
 }
 
 table {
     width: 80%;
     margin: auto;
-    border: 1px ridge #31708e;
-    border-radius: 10px;
+    
 }
 
 
@@ -231,6 +232,16 @@ nav {
     animation: appear 4s ease-in;
     animation-delay: 2s;
     animation-fill-mode: forwards;
+    padding:10px;
+    border:2px solid #f7f9fb;
+    background-color:#5085a5;
+    border-radius:10px;
+    transition:0.5s ease-in;
+}
+
+.appear2:hover{
+    color:#5085a5;
+    background-color:#f7f9fb;
 }
 
 /*----------------------------------------------------------------Home*/
