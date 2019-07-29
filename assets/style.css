@@ -70,6 +70,7 @@ Colours from: https://visme.co/blog/website-color-schemes/
     border-top:5px solid #8fc1e3;
     border-radius:5px;
     padding-top:7px;
+    text-align:center;
 }
 
 table {
@@ -88,6 +89,8 @@ td {
     font-size:15px;
     height:40px;
     width:100px;
+    margin-top: 30px;
+    
 }
 
 /*----------------------------------------------------------------Nav*/
