@@ -39,58 +39,16 @@ Colours from: https://visme.co/blog/website-color-schemes/
 
 */
 
-.price-container {
-    color: #31708e;
-    display: flex;
-    flex-flow: row wrap;
-
+.gallery-class{
+    display:flex;
+    align-items:center;
+    flex-flow:column;
 }
 
-
-
-.price-option {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
-    width: 80%;
-    padding-bottom: 40px;
-    margin: auto;
-    max-width: 500px;
-}
-
-.price-option h3 {
-    margin-top: 35px;
-    font-size:25px;
-    color:#8fc1e3;
-}
-
-.price-option p {
-    margin: 15px;
-    border-top:5px solid #8fc1e3;
-    border-radius:5px;
-    padding-top:7px;
-    text-align:center;
-}
-
-table {
-    width: 80%;
-    margin: auto;
-    
-}
-
-
-
-td {
-    text-align: center;
-}
-
-.price-button{
-    font-size:15px;
-    height:40px;
-    width:100px;
-    margin-top: 30px;
-    
+iframe{
+    width:80%;
+    min-height:720px;
+    margin:40px 0px;
 }
 
 /*----------------------------------------------------------------Nav*/
@@ -241,16 +199,16 @@ nav {
     animation: appear 4s ease-in;
     animation-delay: 2s;
     animation-fill-mode: forwards;
-    padding:10px;
-    border:2px solid #f7f9fb;
-    background-color:#5085a5;
-    border-radius:10px;
-    transition:0.5s ease-in;
+    padding: 10px;
+    border: 2px solid #f7f9fb;
+    background-color: #5085a5;
+    border-radius: 10px;
+    transition: 0.5s ease-in;
 }
 
-.appear2:hover{
-    color:#5085a5;
-    background-color:#f7f9fb;
+.appear2:hover {
+    color: #5085a5;
+    background-color: #f7f9fb;
 }
 
 /*----------------------------------------------------------------Home*/
@@ -340,13 +298,67 @@ button {
 
 button:hover {
     box-shadow: 0 6px 14px 0 rgba(0, 0, 0, 0.6);
-    color:#5085a5;
-    background-color:#f7f9fb;
+    color: #5085a5;
+    background-color: #f7f9fb;
 }
 
 /*----------------------------------------------------------------Services*/
 
 /*----------------------------------------------------------------Prices*/
+
+.price-container {
+    color: #31708e;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+
+
+.price-option {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    padding-bottom: 40px;
+    margin: auto;
+    max-width: 500px;
+}
+
+.price-option h3 {
+    margin-top: 35px;
+    font-size: 25px;
+    color: #8fc1e3;
+}
+
+.price-option p {
+    margin: 15px;
+    border-top: 5px solid #8fc1e3;
+    border-radius: 5px;
+    padding-top: 7px;
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+
+}
+
+
+
+td {
+    text-align: center;
+}
+
+.price-button {
+    font-size: 15px;
+    height: 40px;
+    width: 100px;
+    margin-top: 30px;
+
+}
 
 /*----------------------------------------------------------------Prices*/
 
