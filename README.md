@@ -8,7 +8,7 @@ UX
 
 The website is designed to entice users with the home page and help them quickly zero in on the services they want to use and how they can book them.
 
-* As a person wishing to get pilates training I go to the home page and click on Begin your journey or the services link in the nav
+* A User 
 * As a person wishing to get pilates training I go to the home page and click on Begin your journey or the services link in the nav
 * As a person wishing to get pilates training I go to the home page and click on Begin your journey or the services link in the nav
 * As a person wishing to get pilates training I go to the home page and click on Begin your journey or the services link in the nav
@@ -20,21 +20,23 @@ Features
 
 ### Client Desired Features
 
-* Feature
-* Feature 2
-* Feature 3
-* 
+* Showing Features Offered
+* Allowing Users to Contact the Client
+* Allowing Users to book and pay for appointments
+* Directing users to the client's social media and community
 
 ### Features Implemented
 
-* Feature 
-* Feature
-* 
+* Showing Services Offered and Prices
+* Allows users to reach out to client to book appointments
+* Links to Social Media
+* Shows more information about servies offered in the Gallery section
 
 ### Upcoming Features
 
-* Feature 
-*
+* Contact Us form is not yet operational
+* Ability to Automatically book appointments
+* Ability to Pay for appointments on the website
 
 Technologies Used
 ------------
@@ -43,7 +45,7 @@ Technologies Used
 .. * HTML Used for all content
 + CSS
 + JavaScript
-+ 
+
 
 Testing
 --------------
@@ -54,13 +56,13 @@ Deb Testing
 
 Ma Testing
 
-Client Testing?
+Client Testing
 
 Deployment
 -------------------
 
 
-The site is deployed [here](geminerald.github.io/peakwellness "Peak Wellness page on GitHub").
+The site is deployed [here](geminerald.github.io/peakwellness "Peak Wellness page on GitHub Pages").
 
 After the site was close to it's final stage it was deplayed to GitHub Pages in order to allow for more available real world testing with a varitey of users. 
 
@@ -85,3 +87,4 @@ Credits
 #### Acknowledgements
 
 * I would like to thank Simen Daehlin for his help and feedback throughout.
+* I would also like to thank the Code Institute Tutor Support team for their help and patience.
