@@ -1,3 +1,24 @@
+/*
+CONTENTS:
+
+
+
+
+
+
+
+*/
+/*----------------------------------------------------------------Colours
+
+Grey/Green: #687864
+Dark Blue: #31708e
+Medium Blue: #5085a5
+Light Blue: #8fc1e3
+White: #f7f9fb
+
+Colours from: https://visme.co/blog/website-color-schemes/
+
+----------------------------------------------------------------Colours*/
 /*----------------------------------------------------------------Universals*/
 
 * {
@@ -28,7 +49,7 @@ h1 {
 
 button {
     color: #f7f9fb;
-    background:radial-gradient(#31708e 0%, #8FC1E3 100%);
+    background: radial-gradient(#31708e 0%, #8FC1E3 100%);
     margin: 10px 0px 10px 0px;
     height: 50px;
     width: 200px;
@@ -38,40 +59,30 @@ button {
     font-size: 3vh;
     cursor: pointer;
     padding: 10px;
-    border:2px solid #8fc1e3;
+    border: 2px solid #8fc1e3;
 }
 
 button:hover {
     box-shadow: 0 6px 14px 0 rgba(0, 0, 0, 0.6);
     color: #5085a5;
-    background:radial-gradient(#f7f9fb 0%, #8fc1e3 100%);
+    background: radial-gradient(#f7f9fb 0%, #8fc1e3 100%);
 }
 
 /*----------------------------------------------------------------Universals*/
 
-/*----------------------------------------------------------------Colours
 
-Grey/Green: #687864
-Dark Blue: #31708e
-Medium Blue: #5085a5
-Light Blue: #8fc1e3
-White: #f7f9fb
-
-Colours from: https://visme.co/blog/website-color-schemes/
-
-*/
-
-.gallery-class{
-    display:flex;
-    align-items:center;
-    flex-flow:column;
+.gallery-class {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
 }
 
-iframe{
-    width:80%;
-    min-height:720px;
-    margin:40px 0px;
+iframe {
+    width: 85%;
+    min-height: 720px;
+    margin: 40px 0px;
 }
+
 
 /*----------------------------------------------------------------Nav*/
 
