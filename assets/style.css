@@ -46,7 +46,7 @@ h1 {
 }
 
 
-.button {
+.button,#form-button {
     color: #f7f9fb;
     background: radial-gradient(#31708e 0%, #8FC1E3 100%);
     margin: 10px 0px 10px 0px;
@@ -58,9 +58,9 @@ h1 {
     font-size: 30px;
     cursor: pointer;
     border: 2px solid #8fc1e3;
-    display:flex;
-    justify-content:space-evenly;
-    text-align:center;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
 .button:hover {
@@ -71,7 +71,6 @@ h1 {
 
 
 /*----------------------------------------------------------------Universals*/
-
 
 /*----------------------------------------------------------------Nav*/
 
@@ -438,6 +437,10 @@ textarea {
 
 /*----------------------------------------------------------------Gallery*/
 
+.gallery-header {
+    color: #5085a5;
+}
+
 .gallery-class {
     display: flex;
     align-items: center;
@@ -544,8 +547,3 @@ footer {
 }
 
 /*----------------------------------------------------------------KeyFrames*/
-
-.overlay {
-    background-color: rgba((0, 0, 0, 0.5);
-
-}
