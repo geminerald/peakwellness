@@ -1,10 +1,7 @@
 /*
 CONTENTS:
 
-
-
-
-
+Colours || Universals  || Nav  || Home   ||  Services  || Prices  ||  Contact  || Gallery  ||  Footer  || Keyframes  ||
 
 
 */
@@ -71,44 +68,6 @@ button:hover {
 }
 
 /*----------------------------------------------------------------Universals*/
-
-.gallery-class {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 85%;
-    margin: auto;
-}
-
-#videos {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-iframe {
-    width: 100%;
-    min-height: 720px;
-    margin: 40px 0px;
-}
-
-#images {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-}
-
-.image {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
-    transition: 0.3s ease-in;
-    margin: 30px;
-    border: 10px solid #f7f9fb;
-    border-radius: 10px;
-}
-
-.image:hover {
-    box-shadow: 0 6px 14px 0 rgba(0, 0, 0, 0.6);
-}
 
 
 /*----------------------------------------------------------------Nav*/

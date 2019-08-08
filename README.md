@@ -13,7 +13,7 @@ The website is designed to entice users with the home page and help them quickly
 * On the Services page they are shown the basic services offered and directed to Book Now - this button will take them to the Contact page where they can contact the client to book an appointment.
 * If they are browsing various optoins they can view the pricelist page from any page using the nav link at the top of all pages, this will take them to the prices page which will give them a more detailed breakdown of all the times and services available.
 
-As part of this design process I used [Figma](https://www.figma.com) to structure the layout of the site and the pages. The design process changed many of the ideas.
+As part of this design process I used [Figma](https://www.figma.com) to structure the layout of the site and the individual pages.
 
 Features
 ------------------
@@ -42,7 +42,7 @@ Technologies Used
 ------------
 
 * HTML - Used for all content
-* CSS - Used for layout and styles
+* CSS - Used for all layout and styles
 * JavaScript - used for Nav Elements
 
 
@@ -53,7 +53,7 @@ I tested the functionality of the site myself manually throughout the devlopment
 
 The client was consulted on a regular basis to ensure that the functionality was as they wished.
 
-I received feedback from a key demographic of the client, testing the website with a focus group of men and women in the 20-29 age bracked. From this feedback I added the pricelist page as they advised that this would be important functionality for them when browsing their options.
+I received feedback from a key demographic of the client, testing the website with two separage focus group of men and women in the 20-29 age bracket. From this feedback I added the pricelist page as they advised that this would be important functionality for them when browsing their options.
 
 I also consulted a group of women in the 50+ age bracket to ensure that the site was accessible to them and they were able to navigate intuitively.
 
@@ -81,7 +81,7 @@ Credits
 
 #### Media
 
-*  The colour scheme was taken from here
+*  The colour scheme was taken from [https://visme.co/blog/website-color-schemes/](Visme)
 *  The Images Used were taken from the client or Pexels
 
 #### Acknowledgements
