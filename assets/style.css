@@ -8,6 +8,7 @@ CONTENTS:
 
 
 */
+
 /*----------------------------------------------------------------Colours
 
 Grey/Green: #687864
@@ -19,6 +20,7 @@ White: #f7f9fb
 Colours from: https://visme.co/blog/website-color-schemes/
 
 ----------------------------------------------------------------Colours*/
+
 /*----------------------------------------------------------------Universals*/
 
 * {
@@ -70,17 +72,42 @@ button:hover {
 
 /*----------------------------------------------------------------Universals*/
 
-
 .gallery-class {
     display: flex;
     align-items: center;
-    flex-flow: column;
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+}
+
+#videos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 iframe {
-    width: 85%;
+    width: 100%;
     min-height: 720px;
     margin: 40px 0px;
+}
+
+#images {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.image {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    transition: 0.3s ease-in;
+    margin: 30px;
+    border:10px solid #f7f9fb;
+    border-radius: 10px;
+}
+
+.image:hover {
+    box-shadow: 0 6px 14px 0 rgba(0, 0, 0, 0.6);
 }
 
 
