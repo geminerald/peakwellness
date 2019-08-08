@@ -102,7 +102,7 @@ iframe {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
     transition: 0.3s ease-in;
     margin: 30px;
-    border:10px solid #f7f9fb;
+    border: 10px solid #f7f9fb;
     border-radius: 10px;
 }
 
@@ -440,6 +440,14 @@ h5 {
 
 .contact a {
     color: #5085a5;
+    transition: 0.5s ease-in-out;
+    border-radius: 30px;
+    padding-top: 5px;
+}
+
+.contact a:hover {
+    color: #f7f9fb;
+    background-color: #5085a5;
 }
 
 form {
@@ -450,16 +458,73 @@ form {
     flex-flow: column wrap;
     width: 80%;
     justify-content: space-evenly;
+
 }
 
 input,
 textarea {
     border-radius: 5px;
     border: 3px solid #8fc1e3;
-    margin: 5px;
+    margin: 10px auto;
+    min-width: 50%;
+    max-width: 80%;
+
+}
+
+textarea {
+    min-height: 25vh;
+    margin: auto;
+}
+
+#form-button {
+    margin: 15px auto;
 }
 
 /*----------------------------------------------------------------Contact*/
+
+/*----------------------------------------------------------------Gallery*/
+
+.gallery-class {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+}
+
+#videos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+iframe {
+    width: 100%;
+    min-height: 720px;
+    margin: 40px 0px;
+}
+
+#images {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.image {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    transition: 0.3s ease-in;
+    margin: 30px;
+    border: 10px solid #f7f9fb;
+    border-radius: 10px;
+}
+
+.image:hover {
+    box-shadow: 0 6px 14px 0 rgba(0, 0, 0, 0.6);
+}
+
+
+
+/*----------------------------------------------------------------Gallery*/
 
 /*----------------------------------------------------------------Footer*/
 
